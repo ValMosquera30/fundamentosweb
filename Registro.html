@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="menu logo-nav">
+            <a href="index.html" class="logo">JARDÍN ENCANTADO</a>
+            <label class="menu-icon"><span class="fas fa-bars icomin"></span></label>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Registro.html">Registro</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="busqueda.html">Busqueda</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container-Registro">
+        <form action="#" id="form" method="post">
+            <H2>REGISTRO</H2>
+            <br>
+            <input type="text" name="cliente" id="nombre" placeholder="Ingrese su Nombre"
+                onkeypress="return sololetras(event)" onpaste="return false" required>
+            <input type="text" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+            <input type="text" name="celular" id="celular" placeholder="Ingrese su Celular"
+                onkeypress="return solonumeros(event)" onpaste="return false" required>
+            <textarea name="mensaje" placeholder="Escriba su Mensaje" required></textarea>
+            <input type="submit" id="button-contacto" value="ENVIAR" class="button"
+                onclick="validarCorreo(form.correo.value)">
+        </form>
+
+    </div>
+    <footer class="footer-section">
+        <div class="copyright-area">
+            <div class="container-footer">
+                <div class="row-footer">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2024, Floristeria Valentina Mosquera <a href="index.html">JARDÍN
+                                    ENCANTADO</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+
+                                <li><a href="Registro.html">Registro</a></li>
+                                <li><a href="productos.html">productos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
