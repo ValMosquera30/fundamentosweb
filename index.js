@@ -1,8 +1,9 @@
-const db =[
+let db = [
     {
         nombre: "Orquídea Azul (Piperia elegans)",
         categoria: "Orquidáceas",
-        imagen: "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+        // imagen: "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+        imagen: "https://media.istockphoto.com/id/1148705812/es/vector/vector-de-icono-de-ubicaci%C3%B3n-signo-de-pasador-aislado-sobre-fondo-blanco-mapa-de-navegaci%C3%B3n.jpg?s=612x612&w=0&k=20&c=z3XSzuWeCsG594AbPpDPb-5CrMII8fwaO1aafD_mjh8=",
         codigo: "317351867-5",
         precio: 1540,
         descripcion: "b74f95ce-ad5f-4eb0-ae85-f0ba844a69f3",
@@ -499,30 +500,109 @@ const db =[
         color: "Turquesa",
         tamano: "Grande"
     }
-]
+];
 
-// FORMULARIO REGISTRO
-// Envío Formulario Contacto
-emailjs.init('RGKQdOEOFrKK_ymvsyUEm'); 
-const btn = document.getElementById('button-contacto');
+// Paginación
+const itemsPerPage = 10;
+let currentPage = 1;
+
+function renderCards() {
+    const cardsContainer = document.getElementById('cards-container');
+    cardsContainer.innerHTML = '';
+    
+    // Calcular el índice inicial y final
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentItems = db.slice(startIndex, endIndex);
+    
+    currentItems.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+            <img src="${item.imagen}" alt="${item.nombre}">
+            <h3>${item.nombre}</h3>
+            <p>Categoría: ${item.categoria}</p>
+            <p>Código: ${item.codigo}</p>
+            <p>Precio: $${item.precio}</p>
+            <p>Descripción: ${item.descripcion}</p>
+            <p>Color: ${item.color}</p>
+            <p>Tamaño: ${item.tamano}</p>
+        `;
+        cardsContainer.appendChild(card);
+    });
+}
+
+function renderPagination() {
+    const paginationContainer = document.getElementById('pagination');
+    paginationContainer.innerHTML = '';
+    
+    const totalPages = Math.ceil(db.length / itemsPerPage);
+    
+    for (let i = 1; i <= totalPages; i++) {
+        const pageLink = document.createElement('span');
+        pageLink.className = 'page-link';
+        pageLink.innerText = i;
+        pageLink.addEventListener('click', function() {
+            currentPage = i;
+            renderCards();
+            renderPagination();
+        });
+        if (i === currentPage) {
+            pageLink.style.fontWeight = 'bold';
+        }
+        paginationContainer.appendChild(pageLink);
+    }
+}
+
+// Cargar datos de localStorage al iniciar
+document.addEventListener('DOMContentLoaded', () => {
+    let storedData = JSON.parse(localStorage.getItem('registros'));
+    if (storedData) {
+        db = storedData;
+    }
+    renderCards();
+    renderPagination();
+});
 
 document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault();
+    event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
-    const serviceID = 'default_service';
-    const templateID = 'template_y735lib';
+    // Obtener los valores de los inputs
+    const nombre = document.getElementById('nombre').value;
+    const categoria = document.getElementById('categoria').value;
+    const imagen = document.getElementById('imagen').value;
+    const codigo = document.getElementById('codigo').value;
+    const precio = document.getElementById('precio').value;
+    const descripcion = document.getElementById('descripcion').value;
+    const color = document.getElementById('color').value;
+    const tamano = document.getElementById('tamano').value;
 
-    emailjs.sendForm(serviceID, templateID, this)
-        .then(() => {
-            Swal.fire({
-                icon: 'success',
-                title: 'Se envió el mensaje',
-                timer: 2500,
-                showConfirmButton: false
-            });
-            window.location = "contacto.html";
-        }, (err) => {
-            btn.value = 'Send Email';
-            alert(JSON.stringify(err));
-        });
+    // Verificar que ningún campo esté vacío
+    if (!nombre || !categoria || !imagen || !codigo || !precio || !descripcion || !color || !tamano) {
+        alert('Por favor, complete todos los campos.');
+        return;
+    }
+
+    // Crear un objeto con los datos del formulario
+    const registro = {
+        nombre: nombre,
+        categoria: categoria,
+        imagen: imagen,
+        codigo: codigo,
+        precio: parseFloat(precio),
+        descripcion: descripcion,
+        color: color,
+        tamano: tamano
+    };
+
+    // Agregar el nuevo registro al array `db`
+    db.push(registro);
+
+    // Guardar el array actualizado en localStorage
+    localStorage.setItem('registros', JSON.stringify(db));
+
+    // Limpiar el formulario después de enviarlo
+    document.getElementById('form').reset();
+
+    alert('Registro guardado con éxito');
 });
