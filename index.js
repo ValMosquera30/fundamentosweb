@@ -565,7 +565,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que el formulario se envíe automáticamente
+    event.preventDefault(); 
 
     // Obtener los valores de los inputs
     const nombre = document.getElementById('nombre').value;
@@ -583,7 +583,6 @@ document.getElementById('form').addEventListener('submit', function(event) {
         return;
     }
 
-    // Crear un objeto con los datos del formulario
     const registro = {
         nombre: nombre,
         categoria: categoria,
@@ -606,3 +605,54 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
     alert('Registro guardado con éxito');
 });
+
+
+function buscar() {
+    const nombre = document.getElementById('search-nombre').value.toLowerCase();
+    const categoria = document.getElementById('search-categoria').value.toLowerCase();
+    const color = document.getElementById('search-color').value.toLowerCase();
+    const tbody = document.getElementById('result-table').getElementsByTagName('tbody')[0];
+
+    tbody.innerHTML = `<tr><td colspan="6">Buscando...</td></tr>`;
+
+    setTimeout(() => {
+        const resultados = db.filter(item => 
+            (nombre === "" || item.nombre.toLowerCase().includes(nombre)) &&
+            (categoria === "" || item.categoria.toLowerCase().includes(categoria)) &&
+            (color === "" || item.color.toLowerCase().includes(color))
+        );
+        
+        mostrarResultados(resultados);
+    }, 2000);
+
+}
+
+function mostrarResultados(resultados) {
+    const tbody = document.getElementById('result-table').getElementsByTagName('tbody')[0];
+    tbody.innerHTML = ""; // Limpiar tabla
+
+    resultados.forEach(item => {
+        const row = tbody.insertRow();
+
+        const cellNombre = row.insertCell(0);
+        cellNombre.textContent = item.nombre;
+
+        const cellCategoria = row.insertCell(1);
+        cellCategoria.textContent = item.categoria;
+
+        const cellColor = row.insertCell(2);
+        cellColor.textContent = item.color;
+
+        const cellTamano = row.insertCell(3);
+        cellTamano.textContent = item.tamano;
+
+        const cellPrecio = row.insertCell(4);
+        cellPrecio.textContent = item.precio;
+
+        const cellImagen = row.insertCell(5);
+        const img = document.createElement('img');
+        img.src = item.imagen;
+        img.style.width = "100px";
+        cellImagen.appendChild(img);
+    });
+}

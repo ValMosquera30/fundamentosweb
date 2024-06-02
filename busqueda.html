@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda</title>
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="menu logo-nav">
+            <a href="index.html" class="logo">JARDÍN ENCANTADO</a>
+            <label class="menu-icon"><span class="fas fa-bars icomin"></span></label>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Registro.html">Registro</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="busqueda.html">Busqueda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form id="search-form" class="formulario-tabla">
+            <h1>Búsqueda de Productos</h1>
+            <input type="text" id="search-nombre" placeholder="Nombre">
+            <input type="text" id="search-categoria" placeholder="Categoría">
+            <input type="text" id="search-color" placeholder="Color">
+            <button type="button" onclick="buscar()" class="button">Buscar</button>
+        </form>
+
+        <table id="result-table" border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Color</th>
+                    <th>Tamaño</th>
+                    <th>Precio</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Resultados de la búsqueda se insertarán aquí -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

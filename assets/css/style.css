@@ -33,7 +33,7 @@ header {
     left: 0;
     top: 0;
     right: 0;
-    height: 65px;
+    height: 60px;
 }
 
 header a {
@@ -284,12 +284,6 @@ select {
     display: inline-block;
 }
 
-
-
-
-
-
-
 /* Estilos para las tarjetas */
 #cards-container {
     margin-top: 100px; /* Ajusta este valor según sea necesario */
@@ -300,8 +294,8 @@ select {
 }
 
 .card {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #e9967a;
+    border: 1px solid #5e5c5c;
     padding: 16px;
     margin: 16px;
     width: 220px;
@@ -349,7 +343,52 @@ select {
     display: inline-block;
 }
 
+/* busqueda */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #e9967a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+img {
+    max-width: 100px;
+    border-radius: 4px;
+}
 
-
-
+.formulario-tabla input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
 
