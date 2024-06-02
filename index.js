@@ -26,7 +26,7 @@ let db = [
         codigo: "983798126-1",
         precio: 8290,
         descripcion: "d9458f12-0df5-4068-b274-83055d6a0601",
-        color: "Amarillo",
+        color: "Morado",
         tamano: "Pequeño"
     },
     {
@@ -36,7 +36,7 @@ let db = [
         codigo: "239053644-1",
         precio: 110,
         descripcion: "d59db6ae-3562-4a05-8adc-7ba24cbc46b3",
-        color: "Azul",
+        color: "Amarillo",
         tamano: "Pequeño"
     },
     {
@@ -46,7 +46,7 @@ let db = [
         codigo: "251546600-1",
         precio: 4320,
         descripcion: "44054cf1-8ab5-4603-b081-c4562f200e03",
-        color: "Fucsia",
+        color: "Amarillo",
         tamano: "Pequeño"
     },
     {
@@ -56,7 +56,7 @@ let db = [
         codigo: "174081567-X",
         precio: 9990,
         descripcion: "399adea5-f281-4b88-8c45-4ff9a2a9c661",
-        color: "Turquesa",
+        color: "Blanco",
         tamano: "Grande"
     },
     {
@@ -66,7 +66,7 @@ let db = [
         codigo: "519263810-0",
         precio: 8220,
         descripcion: "d8f0c5a4-b3b2-420c-9090-493e57b86611",
-        color: "Morado",
+        color: "Verde",
         tamano: "Pequeño"
     },
     {
@@ -76,7 +76,7 @@ let db = [
         codigo: "602230179-3",
         precio: 6760,
         descripcion: "4dc25649-df2f-4728-b5e3-259b73cfe9a2",
-        color: "Naranja",
+        color: "Azul",
         tamano: "Mediano"
     },
     {
@@ -86,7 +86,7 @@ let db = [
         codigo: "404530778-8",
         precio: 5230,
         descripcion: "fc7cfc13-722f-4b63-bc4c-9da76decc8a7",
-        color: "Carmesí",
+        color: "Blanco",
         tamano: "Grande"
     },
     {
@@ -96,7 +96,7 @@ let db = [
         codigo: "172358226-3",
         precio: 5810,
         descripcion: "7014a298-9706-4138-96f6-39cd18ecfcbf",
-        color: "Turquesa",
+        color: "Verde",
         tamano: "Grande"
     },
     {
