@@ -344,7 +344,7 @@ select {
 }
 
 /* busqueda */
-main {
+/* main {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
@@ -390,5 +390,65 @@ img {
     box-sizing: border-box;
     font-size: 17px;
     border: none;
+} */
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #e9967a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 4px;
+}
+
+.formulario-tabla input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
