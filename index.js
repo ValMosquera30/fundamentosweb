@@ -102,7 +102,7 @@ let db = [
     {
         nombre: "Lágrimas de Amor (Dicentra nevadensis)",
         categoria: "Fumariáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dicentra_nevadensis_imported_from_iNaturalist_photo_22525515_on_5_December_2019.jpg",
         codigo: "910638163-4",
         precio: 1960,
         descripcion: "439edbb2-12c9-4ad4-bfb7-9c659d231a0b",
@@ -112,7 +112,7 @@ let db = [
     {
         nombre: "Ortiga Brillante (Glossopetalon spinescens)",
         categoria: "Crossosomátáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/7/74/Glossopetalon_spinescens_var_aridum_4.jpg",
         codigo: "230833161-5",
         precio: 5770,
         descripcion: "5039cb87-e5a1-4520-8346-f3614abe2b31",
@@ -122,7 +122,7 @@ let db = [
     {
         nombre: "Margarita del Desierto (Oenothera deltoides)",
         categoria: "Onagráceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.jardineriaon.com/wp-content/uploads/2014/06/Oenothera_deltoides_ssp_deltoides.jpg",
         codigo: "731761113-2",
         precio: 2540,
         descripcion: "e4a82e33-020a-4a3c-8312-68a088762d46",
@@ -132,7 +132,7 @@ let db = [
     {
         nombre: "Lirio del Desierto (Lesquerella lasiocarpa)",
         categoria: "Brasicáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://inaturalist-open-data.s3.amazonaws.com/photos/289438657/original.jpg",
         codigo: "239053644-1",
         precio: 110,
         descripcion: "d59db6ae-3562-4a05-8adc-7ba24cbc46b3",
@@ -142,7 +142,7 @@ let db = [
     {
         nombre: "Flor de Sal (Microtea portoricensis)",
         categoria: "Quenopodiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://media.gettyimages.com/id/1298952514/es/foto/aromatherapy-bath-salts.jpg?s=612x612&w=gi&k=20&c=O0hWaJZYriu84qnVhZjk-3Ovlh9_vvcRZu1uZ7pGS_I=",
         codigo: "251546600-1",
         precio: 4320,
         descripcion: "44054cf1-8ab5-4603-b081-c4562f200e03",
@@ -152,7 +152,7 @@ let db = [
     {
         nombre: "Perejil Marino (Eryngium maritimum)",
         categoria: "Apiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Eryngium_maritimum_2.jpg/240px-Eryngium_maritimum_2.jpg",
         codigo: "174081567-X",
         precio: 9990,
         descripcion: "399adea5-f281-4b88-8c45-4ff9a2a9c661",
@@ -162,7 +162,7 @@ let db = [
     {
         nombre: "Trébol Silvestre (Eriogonum mohavense)",
         categoria: "Polygonáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Western_Mojave_wild_buckwheat_imported_from_iNaturalist_photo_290914664_on_12_March_2024.jpg/220px-Western_Mojave_wild_buckwheat_imported_from_iNaturalist_photo_290914664_on_12_March_2024.jpg",
         codigo: "519263810-0",
         precio: 8220,
         descripcion: "d8f0c5a4-b3b2-420c-9090-493e57b86611",
@@ -170,9 +170,9 @@ let db = [
         tamano: "Pequeño"
     },
     {
-        nombre: "Genciana Púrpura (Cyrtandra ×villicalyx)",
+        nombre: "Genciana Púrpura (Cyrtandra villicalyx)",
         categoria: "Gesneriáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gentiana_purpurea_Swiss.jpg/240px-Gentiana_purpurea_Swiss.jpg",
         codigo: "602230179-3",
         precio: 6760,
         descripcion: "4dc25649-df2f-4728-b5e3-259b73cfe9a2",
@@ -182,7 +182,7 @@ let db = [
     {
         nombre: "Cebollino Chino (Allium tuberosum)",
         categoria: "Liliáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Allium_tuberosum2.jpg/250px-Allium_tuberosum2.jpg",
         codigo: "404530778-8",
         precio: 5230,
         descripcion: "fc7cfc13-722f-4b63-bc4c-9da76decc8a7",
@@ -192,7 +192,7 @@ let db = [
     {
         nombre: "Juncias Cárex (Carex tiogana)",
         categoria: "Ciperáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "",
         codigo: "172358226-3",
         precio: 5810,
         descripcion: "7014a298-9706-4138-96f6-39cd18ecfcbf",
@@ -202,7 +202,7 @@ let db = [
     {
         nombre: "Lágrimas de Amor (Dicentra nevadensis)",
         categoria: "Fumariáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dicentra_nevadensis_imported_from_iNaturalist_photo_22525515_on_5_December_2019.jpg",
         codigo: "910638163-4",
         precio: 1960,
         descripcion: "439edbb2-12c9-4ad4-bfb7-9c659d231a0b",
@@ -212,7 +212,7 @@ let db = [
     {
         nombre: "Ortiga Brillante (Glossopetalon spinescens)",
         categoria: "Crossosomátáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/7/74/Glossopetalon_spinescens_var_aridum_4.jpg",
         codigo: "230833161-5",
         precio: 5770,
         descripcion: "5039cb87-e5a1-4520-8346-f3614abe2b31",
@@ -222,7 +222,7 @@ let db = [
     {
         nombre: "Margarita del Desierto (Oenothera deltoides)",
         categoria: "Onagráceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://c8.alamy.com/compes/hxfcp1/dune-primrose-oenothera-deltoides-ssp-deltoides-onagraceae-que-florece-en-el-desierto-anza-borrego-state-park-california-ee-uu-2017-hxfcp1.jpg",
         codigo: "731761113-2",
         precio: 2540,
         descripcion: "e4a82e33-020a-4a3c-8312-68a088762d46",
@@ -232,7 +232,7 @@ let db = [
     {
         nombre: "Lirio del Desierto (Lesquerella lasiocarpa)",
         categoria: "Brasicáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoigZpVendRFSyzzpv8vsQ6yF67B8ltJ22-Q&s",
         codigo: "239053644-1",
         precio: 110,
         descripcion: "d59db6ae-3562-4a05-8adc-7ba24cbc46b3",
@@ -242,7 +242,7 @@ let db = [
     {
         nombre: "Flor de Sal (Microtea portoricensis)",
         categoria: "Quenopodiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Fleur_de_sel1.jpg/799px-Fleur_de_sel1.jpg",
         codigo: "251546600-1",
         precio: 4320,
         descripcion: "44054cf1-8ab5-4603-b081-c4562f200e03",
@@ -252,7 +252,7 @@ let db = [
     {
         nombre: "Perejil Marino (Eryngium maritimum)",
         categoria: "Apiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Eryngium_maritimum_2.jpg/640px-Eryngium_maritimum_2.jpg",
         codigo: "174081567-X",
         precio: 9990,
         descripcion: "399adea5-f281-4b88-8c45-4ff9a2a9c661",
@@ -262,7 +262,7 @@ let db = [
     {
         nombre: "Trébol Silvestre (Eriogonum mohavense)",
         categoria: "Polygonáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Western_Mojave_wild_buckwheat_imported_from_iNaturalist_photo_290914664_on_12_March_2024.jpg/220px-Western_Mojave_wild_buckwheat_imported_from_iNaturalist_photo_290914664_on_12_March_2024.jpg",
         codigo: "519263810-0",
         precio: 8220,
         descripcion: "d8f0c5a4-b3b2-420c-9090-493e57b86611",
@@ -270,9 +270,9 @@ let db = [
         tamano: "Pequeño"
     },
     {
-        nombre: "Genciana Púrpura (Cyrtandra ×villicalyx)",
+        nombre: "Genciana Púrpura (Cyrtandra villicaly)",
         categoria: "Gesneriáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.picturethisai.com/image-handle/website_cmsname/image/1080/201207101717086208.jpeg?x-oss-process=image/format,webp/resize,s_500/quality,q_70&v=1.3",
         codigo: "602230179-3",
         precio: 6760,
         descripcion: "4dc25649-df2f-4728-b5e3-259b73cfe9a2",
@@ -282,7 +282,7 @@ let db = [
     {
         nombre: "Cebollino Chino (Allium tuberosum)",
         categoria: "Liliáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.cincopinos.cl/cdn/shop/products/alliumtuberosum_1200x.jpg?v=1681151224",
         codigo: "404530778-8",
         precio: 5230,
         descripcion: "fc7cfc13-722f-4b63-bc4c-9da76decc8a7",
@@ -292,7 +292,7 @@ let db = [
     {
         nombre: "Juncias Cárex (Carex tiogana)",
         categoria: "Ciperáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.picturethisai.com/image-handle/website_cmsname/image/1080/153913417269248002.jpeg?x-oss-process=image/format,webp",
         codigo: "172358226-3",
         precio: 5810,
         descripcion: "7014a298-9706-4138-96f6-39cd18ecfcbf",
@@ -302,7 +302,7 @@ let db = [
     {
         nombre: "Lágrimas de Amor (Dicentra nevadensis)",
         categoria: "Fumariáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://calphotos.berkeley.edu/imgs/512x768/0000_0000/0616/1685.jpeg",
         codigo: "910638163-4",
         precio: 1960,
         descripcion: "439edbb2-12c9-4ad4-bfb7-9c659d231a0b",
@@ -312,7 +312,7 @@ let db = [
     {
         nombre: "Ortiga Brillante (Glossopetalon spinescens)",
         categoria: "Crossosomátáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.swcoloradowildflowers.com/White%20Enlarged%20Photos/3fome.jpg",
         codigo: "230833161-5",
         precio: 5770,
         descripcion: "5039cb87-e5a1-4520-8346-f3614abe2b31",
@@ -322,7 +322,7 @@ let db = [
     {
         nombre: "Margarita del Desierto (Oenothera deltoides)",
         categoria: "Onagráceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://i.etsystatic.com/22796762/r/il/ead5b5/4113271147/il_570xN.4113271147_fvdq.jpg",
         codigo: "731761113-2",
         precio: 2540,
         descripcion: "e4a82e33-020a-4a3c-8312-68a088762d46",
@@ -332,7 +332,7 @@ let db = [
     {
         nombre: "Lirio del Desierto (Lesquerella lasiocarpa)",
         categoria: "Brasicáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://c8.alamy.com/compes/b1p0ea/un-desierto-lily-hesperocallis-undulata-wildflower-anza-borrego-desert-state-park-california-b1p0ea.jpg",
         codigo: "239053644-1",
         precio: 110,
         descripcion: "d59db6ae-3562-4a05-8adc-7ba24cbc46b3",
@@ -342,7 +342,7 @@ let db = [
     {
         nombre: "Flor de Sal (Microtea portoricensis)",
         categoria: "Quenopodiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3QunYZH-x45ygOZH3cSkVepHZJPgHMJlWnQ&s",
         codigo: "251546600-1",
         precio: 4320,
         descripcion: "44054cf1-8ab5-4603-b081-c4562f200e03",
@@ -352,7 +352,7 @@ let db = [
     {
         nombre: "Perejil Marino (Eryngium maritimum)",
         categoria: "Apiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjtNHX_GELsPU3TpMI1nXdmoBL8m3qy9-c8w&s",
         codigo: "174081567-X",
         precio: 9990,
         descripcion: "399adea5-f281-4b88-8c45-4ff9a2a9c661",
@@ -362,7 +362,7 @@ let db = [
     {
         nombre: "Trébol Silvestre (Eriogonum mohavense)",
         categoria: "Polygonáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://mejorconsalud.as.com/wp-content/uploads/2020/09/trebol-rojo-planta.jpg",
         codigo: "519263810-0",
         precio: 8220,
         descripcion: "d8f0c5a4-b3b2-420c-9090-493e57b86611",
@@ -370,9 +370,9 @@ let db = [
         tamano: "Pequeño"
     },
     {
-        nombre: "Genciana Púrpura (Cyrtandra ×villicalyx)",
+        nombre: "Genciana Púrpura (Cyrtandra villicaly)",
         categoria: "Gesneriáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.florescaliescali.com/wp-content/uploads/2020/11/Orquidea-Flor-Colombiana.jpg",
         codigo: "602230179-3",
         precio: 6760,
         descripcion: "4dc25649-df2f-4728-b5e3-259b73cfe9a2",
@@ -382,7 +382,7 @@ let db = [
     {
         nombre: "Cebollino Chino (Allium tuberosum)",
         categoria: "Liliáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/3/31/Cyrtandra_cyaneoides_%285490666621%29.jpg",
         codigo: "404530778-8",
         precio: 5230,
         descripcion: "fc7cfc13-722f-4b63-bc4c-9da76decc8a7",
@@ -392,7 +392,7 @@ let db = [
     {
         nombre: "Juncias Cárex (Carex tiogana)",
         categoria: "Ciperáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://imagenes.heraldo.es/files/image_990_556/uploads/imagenes/2019/07/05/flores-azules-1.jpeg",
         codigo: "172358226-3",
         precio: 5810,
         descripcion: "7014a298-9706-4138-96f6-39cd18ecfcbf",
@@ -402,7 +402,7 @@ let db = [
     {
         nombre: "Lágrimas de Amor (Dicentra nevadensis)",
         categoria: "Fumariáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Carex_bigelowii.jpg/240px-Carex_bigelowii.jpg",
         codigo: "910638163-4",
         precio: 1960,
         descripcion: "439edbb2-12c9-4ad4-bfb7-9c659d231a0b",
@@ -412,7 +412,7 @@ let db = [
     {
         nombre: "Ortiga Brillante (Glossopetalon spinescens)",
         categoria: "Crossosomátáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://s3.amazonaws.com/sagebudphotos/GLSP/Glossopetalon_spinescens_var_aridum_1_600.jpg",
         codigo: "230833161-5",
         precio: 5770,
         descripcion: "5039cb87-e5a1-4520-8346-f3614abe2b31",
@@ -422,7 +422,7 @@ let db = [
     {
         nombre: "Margarita del Desierto (Oenothera deltoides)",
         categoria: "Onagráceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://c8.alamy.com/compes/hyrryy/dune-onagra-oenothera-deltoides-y-la-arena-del-desierto-verbena-abronia-villosa-old-springs-preserve-espacio-abierto-co-de-san-diego-california-hyrryy.jpg",
         codigo: "731761113-2",
         precio: 2540,
         descripcion: "e4a82e33-020a-4a3c-8312-68a088762d46",
@@ -432,7 +432,7 @@ let db = [
     {
         nombre: "Lirio del Desierto (Lesquerella lasiocarpa)",
         categoria: "Brasicáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://c8.alamy.com/compes/b1p0ea/un-desierto-lily-hesperocallis-undulata-wildflower-anza-borrego-desert-state-park-california-b1p0ea.jpg",
         codigo: "239053644-1",
         precio: 110,
         descripcion: "d59db6ae-3562-4a05-8adc-7ba24cbc46b3",
@@ -442,7 +442,7 @@ let db = [
     {
         nombre: "Flor de Sal (Microtea portoricensis)",
         categoria: "Quenopodiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhizN6Rc4DiMYaBaImMMSRsghNEu4ajm-Ug&s",
         codigo: "251546600-1",
         precio: 4320,
         descripcion: "44054cf1-8ab5-4603-b081-c4562f200e03",
@@ -452,7 +452,7 @@ let db = [
     {
         nombre: "Perejil Marino (Eryngium maritimum)",
         categoria: "Apiáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://img.freepik.com/vector-gratis/diseno-plano-flores-hojas-lineales_23-2149074732.jpg",
         codigo: "174081567-X",
         precio: 9990,
         descripcion: "399adea5-f281-4b88-8c45-4ff9a2a9c661",
@@ -462,7 +462,7 @@ let db = [
     {
         nombre: "Trébol Silvestre (Eriogonum mohavense)",
         categoria: "Polygonáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQiJQ8neSUAp5TjMKotOSpixC4tf92MvU0A&s",
         codigo: "519263810-0",
         precio: 8220,
         descripcion: "d8f0c5a4-b3b2-420c-9090-493e57b86611",
@@ -472,7 +472,7 @@ let db = [
     {
         nombre: "Genciana Púrpura (Cyrtandra ×villicalyx)",
         categoria: "Gesneriáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://rosestolove.com/mundo-luxury2/wp-content/uploads/2019/12/como-conservar-flores-naturales.jpg",
         codigo: "602230179-3",
         precio: 6760,
         descripcion: "4dc25649-df2f-4728-b5e3-259b73cfe9a2",
@@ -482,7 +482,7 @@ let db = [
     {
         nombre: "Cebollino Chino (Allium tuberosum)",
         categoria: "Liliáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://www.bbva.com/wp-content/uploads/2023/02/bbva-sostenibilidad-flores.jpg",
         codigo: "404530778-8",
         precio: 5230,
         descripcion: "fc7cfc13-722f-4b63-bc4c-9da76decc8a7",
@@ -492,7 +492,7 @@ let db = [
     {
         nombre: "Juncias Cárex (Carex tiogana)",
         categoria: "Ciperáceas",
-        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXVoqZbXmzNReOx0i6hjnGlrI2QQL5xOsZg&s",
+        imagen: "https://img.freepik.com/foto-gratis/primer-disparo-flor-morada_181624-25863.jpg",
         codigo: "172358226-3",
         precio: 5810,
         descripcion: "7014a298-9706-4138-96f6-39cd18ecfcbf",
