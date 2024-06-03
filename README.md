@@ -15,6 +15,7 @@ Este proyecto es una tienda virtual de flores con varias vistas y funcionalidade
 - `productos.html`: Página que lista todos los productos disponibles en la tienda.
 - `registro.html`: Página para el registro de nuevos usuarios.
 - `busqueda.html`: Página que permite la búsqueda de productos específicos.
+- `indicaciones.html`: Página que indica como se debe llenar el formulario correctamente.
 - `style.css`: Archivo de estilos CSS para el diseño de la tienda.
 - `script.js`: Archivo JavaScript que contiene la base de datos simulada y las funciones para manejar las distintas vistas.
 
